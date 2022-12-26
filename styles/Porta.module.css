@@ -10,20 +10,21 @@
 
 .moldura {
     display: flex;
+    flex-direction: column-reverse;
     flex-grow: 1;
-    border-left: 7px solid brown;
-    border-top: 7px solid brown;
-    border-right: 7px solid brown;
-    width: 90%;
+    border-left: 5px solid brown;
+    border-top: 5px solid brown;
+    border-right: 5px solid brown;
     background-color: #0005;
+    width: 90%;
 }
 
 .porta {
     display: flex;
     flex-direction: column;
-    background-color: chocolate;
     align-items: center;
     flex-grow: 1;
+    background-color: chocolate;
     padding: 15px;    
 }
 
@@ -48,9 +49,9 @@
 }
 
 .selecionada {
-    border-left: 7px solid yellow;
-    border-top: 7px solid yellow;
-    border-right: 7px solid yellow;
+    border-left: 5px solid yellow;
+    border-top: 5px solid yellow;
+    border-right: 5px solid yellow;
 }
 
 .selecionada .numero {

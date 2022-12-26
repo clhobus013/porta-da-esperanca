@@ -27,6 +27,10 @@ export default class PortaModel {
         return this.#aberta;
     }
 
+    get fechada() {
+        return !this.#aberta;
+    }
+
     // Retorna uma nova instância. Para nao mexer no objeto original
     desselecionar() {
         const selecionada = false;
